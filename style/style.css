@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../style/fonts/Inter-Regular.ttf) format(ttuetype), 
+    url(../style/fonts/Inter-Bold.ttf) format(ttuetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+
+
+body {
+    background-color: #161622;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+.paragraph p {
+    font: 400 24px 'Inter';
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.paragraph h2 {
+    font: 700 48px 'Inter';
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.click-on-me button {
+    background: #6F1DF4;
+    border-radius: 8px;
+    width: 145px;
+    height: 56px;
+}
+
+.img {
+    font: 700 250px 'Inter';
+    color: rgba(255, 255, 255, 0.9);
+}
