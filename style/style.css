@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Inter';
-    src: url(../style/fonts/Inter-Regular.ttf) format(ttuetype), 
-    url(../style/fonts/Inter-Bold.ttf) format(ttuetype);
+    src: url(../style/fonts/Inter-Regular.ttf) format(truetype),
+        url(../style/fonts/Inter-Bold.ttf) format(truetype);
 }
 
 * {
@@ -14,14 +14,23 @@
 
 
 body {
+    width: 1440px;
+    height: 800px;
     background-color: #161622;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 269px 0 0 130px;
 }
 
 .paragraph {
     display: flex;
     flex-direction: column;
-    width: 750px;
-}
+    width: 650px;
+    }
 
 .paragraph p {
     font: 400 24px 'Inter';
@@ -31,13 +40,21 @@ body {
 .paragraph h2 {
     font: 700 48px 'Inter';
     color: rgba(255, 255, 255, 0.9);
+    margin-top: 16px;
 }
 
-.click-on-me button {
+.push, .check {
     background: #6F1DF4;
     border-radius: 8px;
     width: 145px;
     height: 56px;
+    font: 700 16px 'Inter';
+    color: #FFFFFF;
+    margin-top: 58px;
+}
+
+.check {
+    margin-left: 24px;
 }
 
 .img {
