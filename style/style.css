@@ -18,7 +18,7 @@ body {
     background-color: #161622;
 }
 
-header {
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@ header {
         width: 100%;
     }
 
-    header {
+    section {
         width: 100%;
         max-width: 90%;
         flex-direction: column-reverse;
@@ -110,7 +110,7 @@ header {
         width: 100%;
     }
 
-    header {
+    section {
         width: 100%;
         max-width: 90%;
         flex-direction: column-reverse;
